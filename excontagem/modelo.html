@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vamos Contar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Vamos Contar</h1>
+  </header>
+
+  <section>
+    <div id="inputs">
+      Início:
+      <input type="number" id="txtini">
+      <br>
+
+      Fim:
+      <input type="number" id="txtfim">
+      <br>
+
+      Passo:
+      <input type="number" id="txtcont">
+      <br>
+
+      <!-- CORREÇÃO: precisa chamar a função com () -->
+      <input class="botao" type="button" value="Contar" onclick="contar()">
+    </div>
+
+    <!-- CORREÇÃO: id usado no JS precisa ser igual aqui -->
+    <div id="msg">
+      Resultado
+    </div>
+  </section>
+
+  <footer>
+    <p>@lucaaswll</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
