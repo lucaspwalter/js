@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primeiros passos com DOM</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p class="domStrong">Aprendendo a usar <strong>DOM</strong> em JavaScript</p>
+    <div>Clique em mim</div>
+    <script>
+      var d = window.document.querySelector('p.domStrong')
+      window.document.write(d.innerHTML)
+    </script>
+  </body>
+</html>

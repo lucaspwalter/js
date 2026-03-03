@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ex011</title>
+</head>
+<body>
+  <h1>Qual pais voce e</h1>
+  <input type="text" id="pais">
+  <br>
+  <input type="button" value="Verificar" onclick="checar()">
+  <br>
+  <div id="res"></div>
+  <script>
+    function checar() {
+      var pais = document.getElementById("pais").value
+      var res = document.getElementById("res")
+      if (pais == "brasil") {
+        res.innerHTML = `Voce e brasileiro`
+      } else {
+        res.innerHTML = `Voce mora no(a) ${pais}, estrangeiro`
+      }
+    }
+
+  </script>
+</body>
+</html>
