@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Temperatura</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Conversor de Temperatura</h1>
+  </header>
+  <section>
+    <div>
+      Temperatura: <input type="number" id="txttemp" step="0.1"><br><br>
+      Converter de:
+      <select id="selorigem">
+        <option value="C">Celsius → Fahrenheit</option>
+        <option value="F">Fahrenheit → Celsius</option>
+      </select><br><br>
+      <input class="botao" type="button" value="Converter" onclick="converter()">
+    </div>
+    <div id="resultado">
+      Preencha os campos acima.
+    </div>
+  </section>
+  <footer>
+    <p>@lucaaswll</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
